@@ -34,7 +34,7 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin: "http://localhost:3000",
+    origin: "https://fluffy-meringue-1b2762.netlify.app/#/login",
   })
 );
 
